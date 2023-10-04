@@ -1,5 +1,5 @@
 # BEDOL-UI-V4
-
+```lua
 local ui = require(script.ModuleScript)
 
 local window = ui:AddWindow()
@@ -22,7 +22,7 @@ end)
 sec:AddSlider('Slider',5,100,55,"%",function(a)
 	print('slider',a)
 end)
-
+```
 sec:AddDropdown('Dropdown',{1,2,3},1,function(a) 
 	print('dropdown',a)
 end)
