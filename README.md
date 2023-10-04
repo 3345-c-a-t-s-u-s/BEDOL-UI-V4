@@ -22,7 +22,9 @@ end)
 sec:AddSlider('Slider',5,100,55,"%",function(a)
 	print('slider',a)
 end)
-```
+
 sec:AddDropdown('Dropdown',{1,2,3},1,function(a) 
 	print('dropdown',a)
 end)
+
+```
